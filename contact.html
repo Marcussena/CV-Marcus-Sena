@@ -5,20 +5,26 @@
     <title>Contact me</title>
   </head>
   <body>
-    <h1><strong>Contact</strong></h1>
+    <h1><strong>Detalhes para contato</strong></h1>
+    <p>Rua Edson Álvares 175</p>
+    <p>Casa Forte</p>
+    <p>Recife - PE</p>
+    <p>CEP: 52061-450</p>
+    <hr>
     <ul>
       <li><a href="https://www.linkedin.com/in/marcus-sena-660198150/">Linkedin page</a></li>
-      <li><a href="marcusmvls.vinicius@gmail.com">email</a></li>
+      <li>email: marcusmvls.vinicius@gmail.com</li>
     </ul>
-    <form class="" action="index.html" method="post">
-      <label for="name">Your Name</label>
-      <input type="text" name="name" value="Name Here" style="color: #D5D5D5">
-      <input type="submit" name="submit button" value="submit"><br>
-      <label for="check">Do you want to receive emails?</label><br>
-      <label for="yes">yes</label>
-      <input type="checkbox" name="yes" value="yes">
-      <label for="no">no</label>
-      <input type="checkbox" name="no" value="no">
+    <h3>Entre em contato</h3>
+    <form action="mailto:marcusmvls.vinicius@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Seu nome</label>
+      <input type="text" name="name" value="Nome" style="color: #D5D5D5"><br>
+      <label for="name">Seu email</label>
+      <input type="email" name="email" value="email" style="color: #D5D5D5"><br>
+      <label>Escreva sua mensagem: </label><br>
+      <textarea name="message" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="submit message button" value="enviar"><br>
+
     </form>
   </body>
 </html>
